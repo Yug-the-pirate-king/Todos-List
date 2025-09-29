@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function header() {
+export default function header(props) {
   return (
     <div>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">

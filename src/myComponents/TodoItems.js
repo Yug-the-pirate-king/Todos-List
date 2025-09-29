@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function footer() {
+export default function TodoItems() {
   return (
     <div>
-        Footer works
+        TodoItems works!
     </div>
   )
 }
