@@ -1,31 +1,39 @@
+:root {
+  --app-background-color: #282c34;
+  --app-accent-color: #61dafb;
+  --app-text-light-color: white;
+  --app-logo-size: 40vmin;
+  --app-logo-spin-duration: 20s;
+}
+
 .App {
   text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: var(--app-logo-size);
   pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite var(--app-logo-spin-duration) linear;
   }
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: var(--app-background-color);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: var(--app-text-light-color);
 }
 
 .App-link {
-  color: #61dafb;
+  color: var(--app-accent-color);
 }
 
 @keyframes App-logo-spin {
