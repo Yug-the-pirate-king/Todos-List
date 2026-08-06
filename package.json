@@ -1,7 +1,10 @@
 {
-  "name": "my-app",
+  "// project": "Package configuration for the Todos-List React application.",
+  "name": "todos-list",
   "version": "0.1.0",
   "private": true,
+  "description": "A simple todo-list application bootstrapped with Create React App.",
+  "// dependencies": "Runtime libraries and testing utilities required by the application.",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.8.0",
@@ -14,18 +17,21 @@
     "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
+  "// scripts": "Standard Create React App lifecycle commands.",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "// eslintConfig": "Recommended ESLint configurations for a CRA project.",
   "eslintConfig": {
     "extends": [
       "react-app",
       "react-app/jest"
     ]
   },
+  "// browserslist": "Targeted browsers for production and development builds.",
   "browserslist": {
     "production": [
       ">0.2%",
