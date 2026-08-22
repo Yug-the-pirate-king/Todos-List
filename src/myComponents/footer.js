@@ -1,9 +1,14 @@
 import React from 'react'
 
-export default function footer() {
+/**
+ * Footer component renders the footer text.
+ * @returns {JSX.Element} The rendered footer element.
+ */
+export default function Footer() {
   return (
-    <div>
-        Footer works
-    </div>
+    // Use a semantic <footer> element for better accessibility and structure
+    <footer>
+      Footer works
+    </footer>
   )
 }
