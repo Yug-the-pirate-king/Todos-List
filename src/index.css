@@ -1,13 +1,23 @@
+/**
+ * src/index.css
+ * Global base styles for the Todos-List application.
+ * Defines the default page typography and monospaced code elements.
+ */
+
+/* Reset the default browser margin and apply the system font stack. */
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family:
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Use a consistent monospaced font stack for inline code snippets. */
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family:
+    source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
